@@ -13,6 +13,6 @@ path = "src/main.rs"
 [dependencies]
 sb-api-types = { path = "../../lib/api-types" }
 axum = "0.7.5"
-tokio = {version = "1.37.0", features = ["rt-multi-thread"]}
+tokio = {version = "1.38.0", features = ["rt-multi-thread"]}
 tracing = "0.1.40"
 tracing-subscriber = "0.3.18"
